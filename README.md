@@ -18,9 +18,9 @@
 
 ## Conclusions
 - With an Epoch of 20 the accuracy and loss reached these values. accuracy: 0.8663 - loss: 0.3656 - val_accuracy: 0.8255 - val_loss: 0.5133
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- With an Epoch of 25 the accuracy and loss reached these values. accuracy: 0.9375 - loss: 0.1695 - val_accuracy: 0.9301 - val_loss: 0.2316
+- With an Epoch of 40 the accuracy and loss reached these values, while the process was stopped at 16.  accuracy: 0.9119 - loss: 0.2387 - val_accuracy: 0.9227 - val_loss: 0.2320. But with Epoch 40 the model was underfitted where the predictive values was wrong.
+- Epoch 25 is the right value to train the model,which has got 3 CNN layer with an activate function of RelU. 
 
 ## Technologies Used
 - library - version 1.0
