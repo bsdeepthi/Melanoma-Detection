@@ -29,8 +29,8 @@ Vascular lesion
 
 ## Conclusions
 - With an Epoch of 20
-       accuracy: 0.8663 - loss: 0.3656 - val_accuracy: 0.8255 - val_loss: 0.5133
-- With an Epoch of 25
+       accuracy: 0.8834 - loss: 0.3102 - val_accuracy: 0.7602 - val_loss: 0.7241
+- With an Epoch of 30
         accuracy: 0.9375 - loss: 0.1695 - val_accuracy: 0.9301 - val_loss: 0.2316
   With an Epoch of 40, Model fitment early stopped at 16.
         accuracy: 0.9119 - loss: 0.2387 - val_accuracy: 0.9227 - val_loss: 0.2320
