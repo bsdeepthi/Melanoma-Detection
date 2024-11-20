@@ -17,10 +17,14 @@
 - The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 
 ## Conclusions
-- With an Epoch of 20 the accuracy and loss reached these values. accuracy: 0.8663 - loss: 0.3656 - val_accuracy: 0.8255 - val_loss: 0.5133
-- With an Epoch of 25 the accuracy and loss reached these values. accuracy: 0.9375 - loss: 0.1695 - val_accuracy: 0.9301 - val_loss: 0.2316
-- With an Epoch of 40 the accuracy and loss reached these values, while the process was stopped at 16.  accuracy: 0.9119 - loss: 0.2387 - val_accuracy: 0.9227 - val_loss: 0.2320. But with Epoch 40 the model was underfitted where the predictive values was wrong.
-- Epoch 25 is the right value to train the model,which has got 3 CNN layer with an activate function of RelU. 
+- With an Epoch of 20
+       accuracy: 0.8663 - loss: 0.3656 - val_accuracy: 0.8255 - val_loss: 0.5133
+- With an Epoch of 25
+        accuracy: 0.9375 - loss: 0.1695 - val_accuracy: 0.9301 - val_loss: 0.2316
+  With an Epoch of 40, Model fitment early stopped at 16.
+        accuracy: 0.9119 - loss: 0.2387 - val_accuracy: 0.9227 - val_loss: 0.2320
+-  Though the accuracy is high in Epoch as 25 and 40 on the training set, the performance on the test set is very less. Whereas the Epoch of 20 has less accuracy the prediction on the test data is 80% accurate.
+- So the correct Epoch value is 20 for a model with 3 CNN layer with ann active function of RelU.
 
 ## Technologies Used
 - library - version 1.0
