@@ -30,24 +30,12 @@ Vascular lesion
 ## Conclusions
 - With an Epoch of 20
        accuracy: 0.8834 - loss: 0.3102 - val_accuracy: 0.7602 - val_loss: 0.7241
-- With an Epoch of 30
-        accuracy: 0.9375 - loss: 0.1695 - val_accuracy: 0.9301 - val_loss: 0.2316
-  With an Epoch of 40, Model fitment early stopped at 16.
-        accuracy: 0.9119 - loss: 0.2387 - val_accuracy: 0.9227 - val_loss: 0.2320
-- The model os overfitted with the Epoch of 25 and 40 as the predictions on test dataset is not correct.
-- So the correct Epoch value is 20 for a model with 3 CNN layer with an active function of RelU.
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- With an Epoch of 30 , early stop at 26
+        accuracy: 0.9219 - loss: 0.2061 - val_accuracy: 0.8932 - val_loss: 0.3809
+  With an Epoch of 40, Model fitment early stopped at 29.
+        0.9130 - loss: 0.2350 - val_accuracy: 0.9202 - val_loss: 0.3180
+- The model is overfitted with the Epoch of 30 and 40 as the predictions on test dataset is not correct.
+- So the correct Epoch value is 20 for a model with 3 CNN layer with an active function of RelU. 4 classes is predicted correctly and other 3 classes has not been predicted correctly
 
 
 ## Contact
