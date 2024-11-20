@@ -35,7 +35,7 @@ Vascular lesion
   With an Epoch of 40, Model fitment early stopped at 29.
         0.9130 - loss: 0.2350 - val_accuracy: 0.9202 - val_loss: 0.3180
 - The model is overfitted with the Epoch of 30 and 40 as the predictions on test dataset is not correct.
-- So the correct Epoch value is 20 for a model with 3 CNN layer with an active function of RelU. 4 classes is predicted correctly and other 3 classes has not been predicted correctly
+- So the correct Epoch value is 20 for a model with 3 CNN layer with an active function of RelU. 4 classes is predicted correctly and other 3 classes has not been predicted correctly.
 
 
 ## Contact
