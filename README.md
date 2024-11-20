@@ -15,6 +15,17 @@
 - Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. 
 - A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 - The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
+- The data set contains the following diseases:
+  
+Actinic keratosis
+Basal cell carcinoma
+Dermatofibroma
+Melanoma
+Nevus
+Pigmented benign keratosis
+Seborrheic keratosis
+Squamous cell carcinoma
+Vascular lesion
 
 ## Conclusions
 - With an Epoch of 20
@@ -23,8 +34,8 @@
         accuracy: 0.9375 - loss: 0.1695 - val_accuracy: 0.9301 - val_loss: 0.2316
   With an Epoch of 40, Model fitment early stopped at 16.
         accuracy: 0.9119 - loss: 0.2387 - val_accuracy: 0.9227 - val_loss: 0.2320
--  Though the accuracy is high in Epoch as 25 and 40 on the training set, the performance on the test set is very less. Whereas the Epoch of 20 has less accuracy the prediction on the test data is 80% accurate.
-- So the correct Epoch value is 20 for a model with 3 CNN layer with ann active function of RelU.
+- The model os overfitted with the Epoch of 25 and 40 as the predictions on test dataset is not correct.
+- So the correct Epoch value is 20 for a model with 3 CNN layer with an active function of RelU.
 
 ## Technologies Used
 - library - version 1.0
