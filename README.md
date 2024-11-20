@@ -11,28 +11,37 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- To build a CNN based model which can accurately detect melanoma. 
+- Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. 
+- A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
+- The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
+- The data set contains the following diseases:
+  
+Actinic keratosis
+Basal cell carcinoma
+Dermatofibroma
+Melanoma
+Nevus
+Pigmented benign keratosis
+Seborrheic keratosis
+Squamous cell carcinoma
+Vascular lesion
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- With an Epoch of 20
+       accuracy: 0.8834 - loss: 0.3102 - val_accuracy: 0.7602 - val_loss: 0.7241
+- With an Epoch of 30
+        accuracy: 0.9375 - loss: 0.1695 - val_accuracy: 0.9301 - val_loss: 0.2316
+  With an Epoch of 40, Model fitment early stopped at 16.
+        accuracy: 0.9119 - loss: 0.2387 - val_accuracy: 0.9227 - val_loss: 0.2320
+- The model os overfitted with the Epoch of 25 and 40 as the predictions on test dataset is not correct.
+- So the correct Epoch value is 20 for a model with 3 CNN layer with an active function of RelU.
 
 ## Technologies Used
 - library - version 1.0
 - library - version 2.0
 - library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
@@ -42,11 +51,4 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@bsdeepthi] - feel free to contact me!
